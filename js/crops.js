@@ -1336,5 +1336,269 @@ var crops = {
       "jarType": "Pickles",
       "kegType": "Juice",
     }
+  },
+  "jojaberry": {
+    "name": "Joja Berry",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Joja_Berry",
+    "img": "sve_jojaberry.png",
+    "seeds": {
+      "sell": 1000,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 6500,
+      "sveLoc": "JojaMart",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 25,
+      "regrow": 4
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 650,
+      "jarType": "Jelly",
+      "kegType": "Wine",
+      "dehydratorType": "Dried Fruit"
+    }
+  },
+  "jojaveggie": {
+    "name": "Joja Veggie",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Joja_Veggie",
+    "img": "sve_jojaveggie.png",
+    "seeds": {
+      "sell": 200,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 600,
+      "sveLoc": "JojaMart",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 13,
+      "regrow": 0
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 1140,
+      "jarType": "Jelly",
+      "kegType": "Juice"
+    }
+  },
+  "salalberry": {
+    "name": "Salal Berry",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Salal_Berry",
+    "img": "sve_salal.png",
+    "seeds": {
+      "sell": 75,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 0,
+      "sveLoc": "Secret Woods",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 14,
+      "regrow": 4
+    },
+    "produce": {
+      "extra": 1,
+      "extraPerc": 0.03,
+      "price": 75,
+      "jarType": "Jelly",
+      "kegType": "Wine",
+      "dehydratorType": "Dried Fruit"
+    }
+  },
+  "slimeberry": {
+    "name": "Slime Berry",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Slime_Berry",
+    "img": "sve_slimeberry.png",
+    "seeds": {
+      "sell": 75,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 0,
+      "sveLoc": "Highlands",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 13,
+      "regrow": 4
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0.1,
+      "price": 65,
+      "jarType": "Jelly",
+      "kegType": "Wine",
+      "dehydratorType": "Dried Fruit"
+    }
+  },
+  "ancientfiber": {
+    "name": "Ancient Fiber",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Ancient_Fiber",
+    "img": "sve_ancientfiber.png",
+    "seeds": {
+      "sell": 145,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 0,
+      "sveLoc": "Secret Woods",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 12,
+      "regrow": 0
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 145,
+      "jarType": "Pickles",
+      "kegType": "Juice"
+    }
+  },
+  "butternutsquash": {
+    "name": "Butternut Squash",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Butternut_Squash",
+    "img": "sve_butternut.png",
+    "seeds": {
+      "sell": 30,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 90,
+      "sveLoc": "Pierre",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 12,
+      "regrow": 0
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 200,
+      "jarType": "Pickles",
+      "kegType": "Juice"
+    }
+  },
+  "monsterfruit": {
+    "name": "Monster Fruit",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Monster_Fruit",
+    "img": "sve_monsterfruit.png",
+    "seeds": {
+      "sell": 0,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 0,
+      "sveLoc": "Highlands",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 25,
+      "regrow": 0
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 1525,
+      "jarType": "Jelly",
+      "kegType": "Wine",
+      "dehydratorType": "Dried Fruit"
+    }
+  },
+  "monstermushroom": {
+      "name": "Monster Mushroom",
+      "url": "https://stardew-valley-expanded.fandom.com/wiki/Monster_Mushroom",
+      "img": "sve_monstermushroom.png",
+      "seeds": {
+        "sell": 0,
+        "pierre": 0,
+        "joja": 0,
+        "sve": 0,
+        "sveLoc": "Highland Ruins",
+        "special": 0,
+        "specialLoc": "",
+        "specialUrl": ""
+      },
+      "growth": {
+        "initial": 13,
+        "regrow": 0
+      },
+      "produce": {
+        "extra": 0,
+        "extraPerc": 0,
+        "price": 850,
+        "jarType": "Pickles",
+        "kegType": "Juice"
+      }
+  },
+  "sweetpotato": {
+    "name": "Sweet Potato",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Sweet_Potato",
+    "img": "sve_sweetpotato.png",
+    "seeds": {
+      "sell": 45,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 134,
+      "sveLoc": "Pierre",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 12,
+      "regrow": 0
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 280,
+      "jarType": "Pickles",
+      "kegType": "Juice"
+    }
+  },
+  "voidroot": {
+    "name": "Void Root",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Void_Root",
+    "img": "sve_voidroot.png",
+    "seeds": {
+      "sell": 0,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 0,
+      "sveLoc": "Highlands Cavern",
+      "special": 0,
+      "specialLoc": "",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 8,
+      "regrow": 0
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 235,
+      "jarType": "Pickles",
+      "kegType": "Juice"
+    }
   }
 };
