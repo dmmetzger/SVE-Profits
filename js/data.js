@@ -165,7 +165,10 @@ var seasons = [
 			crops.corn,
 			crops.ancientfruit,
 			crops.fallseeds,
-			crops.broccoli
+			crops.broccoli,
+			crops.goldcarrot,
+			crops.monstermushroom,
+			crops.sweetpotato
 		]
 	},
 	{
@@ -173,7 +176,8 @@ var seasons = [
 		"duration": 28,
 		"crops": [
 			crops.winterseeds,
-			crops.powdermelon
+			crops.powdermelon,
+			crops.voidroot
 		]
 	},
 	{
