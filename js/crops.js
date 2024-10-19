@@ -13,6 +13,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "Unpurchasable",
       "specialUrl": "https://stardewvalleywiki.com/Carrot_Seeds"
@@ -38,6 +39,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "Unpurchasable",
       "specialUrl": "https://stardewvalleywiki.com/Summer_Squash_Seeds"
@@ -63,6 +65,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "Unpurchasable",
       "specialUrl": "https://stardewvalleywiki.com/Broccoli_Seeds"
@@ -88,6 +91,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "Unpurchasable",
       "specialUrl": "https://stardewvalleywiki.com/Powdermelon_Seeds"
@@ -114,6 +118,7 @@ var crops = {
       "pierre": 70,
       "joja": 87,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -139,6 +144,7 @@ var crops = {
       "pierre": 60,
       "joja": 75,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -165,6 +171,7 @@ var crops = {
       "pierre": 60,
       "joja": 75,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -191,6 +198,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 400,
       "specialLoc": "Island Trader",
       "specialUrl": "http://stardewvalleywiki.com/Island_Trader"
@@ -217,6 +225,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 1000,
       "specialLoc": "Travelling Cart",
       "specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
@@ -240,6 +249,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 2500,
       "specialLoc": "Travelling Cart",
       "specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
@@ -266,6 +276,7 @@ var crops = {
       "pierre": 200,
       "joja": 250,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -289,6 +300,7 @@ var crops = {
       "pierre": 20,
       "joja": 25,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -312,6 +324,7 @@ var crops = {
       "pierre": 30,
       "joja": 37,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -335,6 +348,7 @@ var crops = {
       "pierre": 200,
       "joja": 125,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -358,6 +372,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 2500,
       "specialLoc": "Travelling Cart",
       "specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
@@ -383,6 +398,7 @@ var crops = {
       "pierre": 100,
       "joja": 125,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -406,6 +422,7 @@ var crops = {
       "pierre": 50,
       "joja": 62,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -429,6 +446,7 @@ var crops = {
       "pierre": 20,
       "joja": 25,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -454,6 +472,7 @@ var crops = {
       "pierre": 60,
       "joja": 75,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -479,6 +498,7 @@ var crops = {
       "pierre": 80,
       "joja": 100,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -504,6 +524,7 @@ var crops = {
       "pierre": 50,
       "joja": 62,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -529,6 +550,7 @@ var crops = {
       "pierre": 40,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -554,6 +576,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 24,
       "specialLoc": "Island Trader",
       "specialUrl": "http://stardewvalleywiki.com/Island_Trader"
@@ -579,6 +602,7 @@ var crops = {
       "pierre": 70,
       "joja": 87,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -604,6 +628,7 @@ var crops = {
       "pierre": 40,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 1000,
       "specialLoc": "Travelling Cart",
       "specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
@@ -629,6 +654,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 100,
       "specialLoc": "Oasis",
       "specialUrl": "http://stardewvalleywiki.com/Oasis"
@@ -655,6 +681,7 @@ var crops = {
       "pierre": 80,
       "joja": 100,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -681,6 +708,7 @@ var crops = {
       "pierre": 50,
       "joja": 62,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -706,6 +734,7 @@ var crops = {
       "pierre": 80,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -732,6 +761,7 @@ var crops = {
       "pierre": 40,
       "joja": 50,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -758,6 +788,7 @@ var crops = {
       "pierre": 10,
       "joja": 12,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -784,6 +815,7 @@ var crops = {
       "pierre": 40,
       "joja": 50,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -809,6 +841,7 @@ var crops = {
       "pierre": 100,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -834,6 +867,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 400,
       "specialLoc": "Oasis",
       "specialUrl": "http://stardewvalleywiki.com/Oasis"
@@ -860,6 +894,7 @@ var crops = {
       "pierre": 150,
       "joja": 187,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -885,6 +920,7 @@ var crops = {
       "pierre": 20,
       "joja": 25,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -910,6 +946,7 @@ var crops = {
       "pierre": 30,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -935,6 +972,7 @@ var crops = {
       "pierre": 100,
       "joja": 125,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -960,6 +998,7 @@ var crops = {
       "pierre": 50,
       "joja": 62,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -985,6 +1024,7 @@ var crops = {
       "pierre": 60,
       "joja": 75,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1010,6 +1050,7 @@ var crops = {
       "pierre": 240,
       "joja": 300,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1036,6 +1077,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 20,
       "specialLoc": "Oasis",
       "specialUrl": "http://stardewvalleywiki.com/Oasis"
@@ -1061,6 +1103,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 0,
       "specialLoc": "Unpurchasable",
       "specialUrl": "https://stardewvalleywiki.com/Ancient_Seeds"
@@ -1087,6 +1130,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 150,
       "specialLoc": "Oasis",
       "specialUrl": "http://stardewvalleywiki.com/Oasis"
@@ -1113,6 +1157,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 100,
       "specialLoc": "Egg Festival",
       "specialUrl": "http://stardewvalleywiki.com/Egg_Festival"
@@ -1139,6 +1184,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 1000,
       "specialLoc": "Travelling Cart",
       "specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
@@ -1164,6 +1210,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 1000,
       "specialLoc": "Travelling Cart",
       "specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
@@ -1191,6 +1238,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 1000,
       "specialLoc": "Travelling Cart",
       "specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
@@ -1218,6 +1266,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "",
       "special": 1000,
       "specialLoc": "Travelling Cart",
       "specialUrl": "http://stardewvalleywiki.com/Travelling_Cart"
@@ -1245,6 +1294,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 70,
+      "sveLoc": "Pierre",
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1270,9 +1320,10 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
+      "sveLoc": "Desert Trader",
       "special": 0,
-      "specialLoc": "Stardew Valley Expanded",
-      "specialUrl": "https://stardew-valley-expanded.fandom.com/wiki/Gold_Carrot_Seed"
+      "specialLoc": "",
+      "specialUrl": ""
     },
     "growth": {
       "initial": 6,
