@@ -1558,7 +1558,7 @@ var crops = {
       "pierre": 134,
       "joja": 0,
       "sve": 0,
-      "sveLoc": "Pierre", //Pierre
+      "sveLoc": "", //Pierre
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
