@@ -1271,7 +1271,7 @@ var crops = {
       "joja": 0,
       "sve": 0,
       "special": 0,
-      "specialLoc": "Unpurchasable",
+      "specialLoc": "Stardew Valley Expanded",
       "specialUrl": "https://stardew-valley-expanded.fandom.com/wiki/Gold_Carrot_Seed"
     },
     "growth": {
