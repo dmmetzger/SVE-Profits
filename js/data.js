@@ -228,7 +228,19 @@ var seasons = [
 			crops.carrot,
 			crops.summersquash,
 			crops.broccoli,
-			crops.powdermelon
+			crops.powdermelon,
+			crops.cucumber,
+			crops.goldcarrot,
+			crops.jojaberry,
+			crops.jojaveggie,
+			crops.salalberry,
+			crops.slimeberry,
+			crops.ancientfiber,
+			crops.butternutsquash,
+			crops.monsterfruit,
+			crops.monstermushroom,
+			crops.sweetpotato,
+			crops.voidroot
 		]
 	}
 ];
