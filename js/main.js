@@ -11,7 +11,7 @@ var barPadding = 4;
 var paddingLeft = 8;
 var barWidth = width / seasons[options.season].crops.length - barPadding;
 var miniBar = 8;
-var barOffsetX = 34; /* Offset for bar graphs from axis - default value 29 */
+var barOffsetX = 36; /* Offset for bar graphs from axis - default value 29 */
 var barOffsetY = 40;
 var graphDescription = "Profit";
 
