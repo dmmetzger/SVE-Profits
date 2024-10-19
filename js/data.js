@@ -107,7 +107,11 @@ var seasons = [
 			crops.springseeds,
 			crops.carrot,
 			crops.cucumber,
-			crops.goldcarrot
+			crops.goldcarrot,
+			crops.jojaberry,
+			crops.jojaveggie,
+			crops.salalberry,
+			crops.slimeberry
 		]
 	},
 	{
@@ -134,7 +138,10 @@ var seasons = [
 			crops.taroroot,
 			crops.summerseeds,
 			crops.summersquash,
-			crops.goldcarrot
+			crops.goldcarrot,
+			crops.ancientfiber,
+			crops.butternutsquash,
+			crops.monsterfruit
 		]
 	},
 	{
@@ -159,7 +166,9 @@ var seasons = [
 			crops.ancientfruit,
 			crops.fallseeds,
 			crops.broccoli,
-			crops.goldcarrot
+			crops.goldcarrot,
+			crops.monstermushroom,
+			crops.sweetpotato
 		]
 	},
 	{
@@ -167,7 +176,8 @@ var seasons = [
 		"duration": 28,
 		"crops": [
 			crops.winterseeds,
-			crops.powdermelon
+			crops.powdermelon,
+			crops.voidroot
 		]
 	},
 	{
@@ -220,7 +230,17 @@ var seasons = [
 			crops.broccoli,
 			crops.powdermelon,
 			crops.cucumber,
-			crops.goldcarrot
+			crops.goldcarrot,
+			crops.jojaberry,
+			crops.jojaveggie,
+			crops.salalberry,
+			crops.slimeberry,
+			crops.ancientfiber,
+			crops.butternutsquash,
+			crops.monsterfruit,
+			crops.monstermushroom,
+			crops.sweetpotato,
+			cropps.voidroot
 		]
 	}
 ];
