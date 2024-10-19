@@ -561,7 +561,7 @@ function fetchCrops() {
 	    if ((options.seeds.pierre && season.crops[i].seeds.pierre != 0) ||
 	    	(options.seeds.joja && season.crops[i].seeds.joja != 0) ||
 			(options.seeds.sve && season.crops[i].seeds.sve != 0) ||
-    	    (season.crops[i].seeds.specialLoc === "Stardew Valley Expanded") ||
+    	    (season.crops[i].seeds.sve == 0 && season.crops[i].seeds.specialLoc == "Stardew Valley Expanded") ||
 			(options.seeds.special && season.crops[i].seeds.specialLoc != "")) {
 	    	cropList.push(JSON.parse(JSON.stringify(season.crops[i])));
 	    	cropList[cropList.length - 1].id = i;
