@@ -1186,5 +1186,30 @@ var crops = {
       "kegType": "Wine"
     },
     "isWildseed": true
+  },
+  "cucumber": {
+    "name": "Cucumber",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Cucumber",
+    "img": "sve_cucumber.png",
+    "seeds": {
+      "sell": 35,
+      "pierre": 0,
+      "joja": 0,
+      "sve":70,
+      "special": 0,
+      "specialLoc": "Pierre",
+      "specialUrl": ""
+    },
+    "growth": {
+      "initial": 12,
+      "regrow": 2
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 20,
+      "jarType": "Pickles",
+      "kegType": "Juice"
+    }
   }
 };

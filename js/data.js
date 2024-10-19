@@ -21,6 +21,7 @@ var options = {
 	"seeds": {
 		"pierre": true,
 		"joja": true,
+		"sve": true,
 		"special": true
 	},
 	"skills": {
@@ -104,7 +105,8 @@ var seasons = [
 			crops.tulip,
 			crops.ancientfruit,
 			crops.springseeds,
-			crops.carrot
+			crops.carrot,
+			crops.cucumber
 		]
 	},
 	{
@@ -213,7 +215,8 @@ var seasons = [
 			crops.carrot,
 			crops.summersquash,
 			crops.broccoli,
-			crops.powdermelon
+			crops.powdermelon,
+			crops.cucumber
 		]
 	}
 ];
