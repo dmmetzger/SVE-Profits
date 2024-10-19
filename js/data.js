@@ -105,7 +105,13 @@ var seasons = [
 			crops.tulip,
 			crops.ancientfruit,
 			crops.springseeds,
-			crops.carrot
+			crops.carrot,
+			crops.cucumber,
+			crops.goldcarrot,
+			crops.jojaberry,
+			crops.jojaveggie,
+			crops.salalberry,
+			crops.slimeberry
 		]
 	},
 	{
