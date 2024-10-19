@@ -106,7 +106,8 @@ var seasons = [
 			crops.ancientfruit,
 			crops.springseeds,
 			crops.carrot,
-			crops.cucumber
+			crops.cucumber,
+			crops.goldcarrot
 		]
 	},
 	{
@@ -132,7 +133,8 @@ var seasons = [
 			crops.ancientfruit,
 			crops.taroroot,
 			crops.summerseeds,
-			crops.summersquash
+			crops.summersquash,
+			crops.goldcarrot
 		]
 	},
 	{
@@ -156,7 +158,8 @@ var seasons = [
 			crops.corn,
 			crops.ancientfruit,
 			crops.fallseeds,
-			crops.broccoli
+			crops.broccoli,
+			crops.goldcarrot
 		]
 	},
 	{
@@ -216,7 +219,8 @@ var seasons = [
 			crops.summersquash,
 			crops.broccoli,
 			crops.powdermelon,
-			crops.cucumber
+			crops.cucumber,
+			crops.goldcarrot
 		]
 	}
 ];

@@ -1260,5 +1260,30 @@ var crops = {
       "jarType": "Pickles",
       "kegType": "Juice"
     }
+  },
+  "goldcarrot": {
+    "name": "Gold Carrot",
+    "url": "https://stardew-valley-expanded.fandom.com/wiki/Gold_Carrot",
+    "img": "sve_goldcarrot.png",
+    "seeds": {
+      "sell": 300,
+      "pierre": 0,
+      "joja": 0,
+      "sve": 0,
+      "special": 0,
+      "specialLoc": "Unpurchasable",
+      "specialUrl": "https://stardew-valley-expanded.fandom.com/wiki/Gold_Carrot_Seed"
+    },
+    "growth": {
+      "initial": 6,
+      "regrow": 0
+    },
+    "produce": {
+      "extra": 0,
+      "extraPerc": 0,
+      "price": 1140,
+      "jarType": "Pickles",
+      "kegType": "Juice",
+    }
   }
 };
