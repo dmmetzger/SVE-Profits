@@ -1199,6 +1199,9 @@ function renderGraph() {
 							tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Seeds (SVE):");
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.sve)
 						.append("div").attr("class", "gold");
+						tooltipTr = tooltipTable.append("tr");
+						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("");
+						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.sveLoc);
 					}
 					if (d.seeds.special > 0) {
 						tooltipTr = tooltipTable.append("tr");
@@ -1212,7 +1215,7 @@ function renderGraph() {
 						.append("div").attr("class", "gold");
 						tooltipTr = tooltipTable.append("tr");
 						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("");
-						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.specialLoc);
+						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.specialLoc); // Add Special Location 
 					}
 
 					tooltipTr = tooltipTable.append("tr");
