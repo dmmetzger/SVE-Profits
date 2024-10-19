@@ -1291,12 +1291,12 @@ var crops = {
     "img": "sve_cucumber.png",
     "seeds": {
       "sell": 35,
-      "pierre": 0,
+      "pierre": 70,
       "joja": 0,
-      "sve": 70,
-      "sveLoc": "Pierre",
+      "sve": 0,
+      "sveLoc": "",
       "special": 0,
-      "specialLoc": "",
+      "specialLoc": "", //Pierre
       "specialUrl": ""
     },
     "growth": {
@@ -1320,7 +1320,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
-      "sveLoc": "Desert Trader",
+      "sveLoc": "Desert Trader", //Desert Trader for 3 gold ingots each
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1344,9 +1344,9 @@ var crops = {
     "seeds": {
       "sell": 1000,
       "pierre": 0,
-      "joja": 0,
-      "sve": 6500,
-      "sveLoc": "JojaMart",
+      "joja": 6500,
+      "sve": 0,
+      "sveLoc": "", // JojaMart
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1371,9 +1371,9 @@ var crops = {
     "seeds": {
       "sell": 200,
       "pierre": 0,
-      "joja": 0,
-      "sve": 600,
-      "sveLoc": "JojaMart",
+      "joja": 600,
+      "sve": 0,
+      "sveLoc": "", //JojaMart
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1399,7 +1399,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
-      "sveLoc": "Secret Woods",
+      "sveLoc": "Secret Woods", //Secret Woods
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1426,7 +1426,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
-      "sveLoc": "Highlands",
+      "sveLoc": "Highlands", //Highlands
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1453,7 +1453,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
-      "sveLoc": "Secret Woods",
+      "sveLoc": "Secret Woods", //Secret Woods
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1476,10 +1476,10 @@ var crops = {
     "img": "sve_butternut.png",
     "seeds": {
       "sell": 30,
-      "pierre": 0,
+      "pierre": 90,
       "joja": 0,
-      "sve": 90,
-      "sveLoc": "Pierre",
+      "sve": 0,
+      "sveLoc": "", //Pierre
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1505,7 +1505,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
-      "sveLoc": "Highlands",
+      "sveLoc": "Highlands", //Highlands
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1532,7 +1532,7 @@ var crops = {
         "pierre": 0,
         "joja": 0,
         "sve": 0,
-        "sveLoc": "Highland Ruins",
+        "sveLoc": "Highland Ruins", //Highland Ruins
         "special": 0,
         "specialLoc": "",
         "specialUrl": ""
@@ -1555,10 +1555,10 @@ var crops = {
     "img": "sve_sweetpotato.png",
     "seeds": {
       "sell": 45,
-      "pierre": 0,
+      "pierre": 134,
       "joja": 0,
-      "sve": 134,
-      "sveLoc": "Pierre",
+      "sve": 0,
+      "sveLoc": "Pierre", //Pierre
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
@@ -1584,7 +1584,7 @@ var crops = {
       "pierre": 0,
       "joja": 0,
       "sve": 0,
-      "sveLoc": "Highlands Cavern",
+      "sveLoc": "Highlands Cavern", //Highlands Cavern
       "special": 0,
       "specialLoc": "",
       "specialUrl": ""
