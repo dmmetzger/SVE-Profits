@@ -240,7 +240,7 @@ var seasons = [
 			crops.monsterfruit,
 			crops.monstermushroom,
 			crops.sweetpotato,
-			cropps.voidroot
+			crops.voidroot
 		]
 	}
 ];
