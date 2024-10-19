@@ -1195,9 +1195,9 @@ var crops = {
       "sell": 35,
       "pierre": 0,
       "joja": 0,
-      "sve":70,
+      "sve": 70,
       "special": 0,
-      "specialLoc": "Pierre",
+      "specialLoc": "",
       "specialUrl": ""
     },
     "growth": {
