@@ -229,7 +229,7 @@ var seasons = [
 			crops.summersquash,
 			crops.broccoli,
 			crops.powdermelon,
-			crops.cucumber,
+			crops.cucumber, 
 			crops.goldcarrot,
 			crops.jojaberry,
 			crops.jojaveggie,
@@ -240,7 +240,7 @@ var seasons = [
 			crops.monsterfruit,
 			crops.monstermushroom,
 			crops.sweetpotato,
-			crops.voidroot
+			crops.voidroot 
 		]
 	}
 ];
