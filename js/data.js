@@ -20,7 +20,7 @@ var options = {
     "fertilizerSource": 0,
 	"seeds": {
 		"pierre": true,
-		"joja": true,
+		"joja": false,
 		"sve": true,
 		"special": true
 	},
