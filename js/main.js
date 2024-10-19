@@ -1201,7 +1201,7 @@ function renderGraph() {
 						.append("div").attr("class", "gold");
 						tooltipTr = tooltipTable.append("tr");
 						tooltipTr.append("td").attr("class", "tooltipTdLeft").text("");
-						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.sveLoc);
+						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.sveLoc); // Add SVE Special Location
 					}
 					if (d.seeds.special > 0) {
 						tooltipTr = tooltipTable.append("tr");

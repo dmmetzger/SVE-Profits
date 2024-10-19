@@ -1319,7 +1319,7 @@ var crops = {
       "sell": 300,
       "pierre": 0,
       "joja": 0,
-      "sve": 0,
+      "sve": 3,
       "sveLoc": "Desert Trader", //Desert Trader for 3 gold ingots each
       "special": 0,
       "specialLoc": "",
