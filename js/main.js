@@ -1189,7 +1189,7 @@ function renderGraph() {
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.joja)
 						.append("div").attr("class", "gold");
 					}
-					if (d.seeds.sve > 0) {
+					if (d.seeds.sve >= 0) { // SVE Special seeds are for seeds designated as unpurchasable
 						tooltipTr = tooltipTable.append("tr");
 						if (first) {
 							tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Seeds (SVE):");
