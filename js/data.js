@@ -137,7 +137,11 @@ var seasons = [
 			crops.ancientfruit,
 			crops.taroroot,
 			crops.summerseeds,
-			crops.summersquash
+			crops.summersquash,
+			crops.goldcarrot,
+			crops.ancientfiber,
+			crops.butternutsquash,
+			crops.monsterfruit
 		]
 	},
 	{
