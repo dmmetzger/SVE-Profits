@@ -143,6 +143,8 @@ function minSeedCost(crop) {
 		minSeedCost = crop.seeds.pierre;
 	if (crop.seeds.joja != 0 && options.seeds.joja && crop.seeds.joja < minSeedCost)
 		minSeedCost = crop.seeds.joja;
+	if (crop.seeds.sve != 0 && options.seeds.sve && crop.seeds.sve < minSeedCost)
+		minSeedCost = crop.seeds.sve;
 	if (crop.seeds.special != 0 && options.seeds.special && crop.seeds.special < minSeedCost)
 		minSeedCost = crop.seeds.special;
     if (minSeedCost == Infinity)
@@ -558,6 +560,7 @@ function fetchCrops() {
 	for (var i = 0; i < season.crops.length; i++) {
 	    if ((options.seeds.pierre && season.crops[i].seeds.pierre != 0) ||
 	    	(options.seeds.joja && season.crops[i].seeds.joja != 0) ||
+			(options.seeds.sve && season.crops[i].seeds.sve != 0) ||
     	    (options.seeds.special && season.crops[i].seeds.specialLoc != "")) {
 	    	cropList.push(JSON.parse(JSON.stringify(season.crops[i])));
 	    	cropList[cropList.length - 1].id = i;
@@ -1186,6 +1189,17 @@ function renderGraph() {
 						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.joja)
 						.append("div").attr("class", "gold");
 					}
+					if (d.seeds.sve > 0) {
+						tooltipTr = tooltipTable.append("tr");
+						if (first) {
+							tooltipTr.append("td").attr("class", "tooltipTdLeftSpace").text("Seeds (SVE):");
+							first = false;
+						}
+						else
+							tooltipTr.append("td").attr("class", "tooltipTdLeft").text("Seeds (SVE):");
+						tooltipTr.append("td").attr("class", "tooltipTdRight").text(d.seeds.sve)
+						.append("div").attr("class", "gold");
+					}
 					if (d.seeds.special > 0) {
 						tooltipTr = tooltipTable.append("tr");
 						if (first) {
@@ -1520,6 +1534,7 @@ function updateData() {
 
 	options.seeds.pierre = document.getElementById('check_seedsPierre').checked;
 	options.seeds.joja = document.getElementById('check_seedsJoja').checked;
+	options.seeds.sve = document.getElementById('check_seedsSVE').checked;
 	options.seeds.special = document.getElementById('check_seedsSpecial').checked;
 
 	options.buySeed = document.getElementById('check_buySeed').checked;
@@ -1730,6 +1745,9 @@ function optionsLoad() {
 
 	options.seeds.joja = validBoolean(options.seeds.joja);
 	document.getElementById('check_seedsJoja').checked = options.seeds.joja;
+
+	options.seeds.sve = validBoolean(options.seeds.sve);
+	document.getElementById('check_seedsSVE').checked = options.seeds.sve;
 
 	options.seeds.special = validBoolean(options.seeds.special);
 	document.getElementById('check_seedsSpecial').checked = options.seeds.special;
